@@ -26,7 +26,9 @@ Run the sample server
 Try the endpoints:
 
     curl -XGET http://localhost:5000/dummy
-    curl -XPOST http://localhost:5000/hello -d '{"name": "World"}'
+    curl -XPOST -H "Content-Type: application/json" http://localhost:5000/hello -d '{"name": "World"}'
+
+Swagger docs available at `http://localhost:5000/api/spec.html`
 
 
 License
