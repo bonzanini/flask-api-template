@@ -29,3 +29,8 @@ Try the endpoints:
     curl -XPOST http://localhost:5000/hello -d '{"name": "World"}'
 
 
+License
+-------
+
+MIT, see LICENSE file
+
